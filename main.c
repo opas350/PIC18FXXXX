@@ -53,23 +53,10 @@ void main() {
     
     PIR1bits.RCIF = 0; // El buffer de recepción está vacío
     PIR1bits.TXIF = 1; // El buffer de transmisión está vacío 
-    
- /*   RCONbits.IPEN   = 0; //Deshabilito las interrupciones de prioridad
-    INTCONbits.GIE  = 1; //Habilito interrupciones
-    INTCONbits.PEIE = 1; //Habilito interrupciones por periféricos
-    PIE1bits.RCIE   = 1; //Habilito interrupciones por el RX del EUSART
-    IPR1bits.RCIP = 1;//Bit de prioridad para la interrupción en el RX el EUSART (Alta)
-    
-*/
-        
    
         printf("A\n\r"); //Unsigned interger value 
         delay1seg();
-        delay1seg();
-        delay1seg();
-        delay1seg();
-  //      printf("\n try2 \n");                
-    
+      
   
 
 }
